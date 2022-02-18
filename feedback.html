@@ -1,0 +1,49 @@
+<!doctype html>   
+<html>
+<head>   
+<title>❤Feedback❤</title>
+<link rel="stylesheet" type="text/css" href="feedback.css">   
+<script src="feedback.js"></script>
+</head>   
+<body style="font-family:comic sans ms;">
+<header><center>
+<h1>INCREDIBLE INDIA</h1>
+<marquee hspace="82px">HOW GOOD WAS THE WEBSITE? COMMENT HERE👇</marquee>
+<h3>
+<ul style="padding:10px">
+|<li style="display:inline-block"><a href="index.html">HOME</a>||</li>
+<li style="display:inline-block"><a href="popular.html">POPULAR DESTINATION</a>||</li>
+<li style="display:inline-block"><a href="metro.html">METRO CITIES</a>||</li>
+<li style="display:inline-block"><a href="heritage.html">HERITAGE SITES</a>||</li>
+<li style="display:inline-block"><a href="beach.html">SERENE BEACHES</a>||</li>
+<li style="display:inline-block"><a href="feedback.html">FEEDBACK</a>|</li>
+</ul>
+</h3>
+</center></header>
+<div id="feedback-main">
+<div id="feedback-div">
+<form>
+<p class="name">
+<input name="name" type="name" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" required placeholder="Name" id="feedback-name" />
+</p>
+<p class="email">
+<input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="feedback-email" placeholder="Email" required />
+</p>
+<p class="text">
+<textarea name="comment" type="comment" class="validate[required,length[6,300]] feedback-input" id="feedback-comment" required placeholder="Feedback"></textarea>
+</p>
+<div class="feedback-submit">
+<input type="submit" value="SEND" id="feedback-button-blue"" onclick="submit_feedback()"/>
+<div class="feedback-ease"></div>
+
+      </div>
+
+    </form>
+
+  </div>
+
+</div>
+
+</body>   
+
+</html>
